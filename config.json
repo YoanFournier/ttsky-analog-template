@@ -21,5 +21,12 @@
     "dir::src/serv_aligner.v"
   ],
   "CLOCK_PERIOD": 25,
-  "CLOCK_PORT": "clk"
+  "CLOCK_PORT": "clk",
+  "DIE_AREA": [
+    0,
+    0,
+    161,
+    225.76
+  ],
+  "RT_MAX_LAYER": "met4"
 }
