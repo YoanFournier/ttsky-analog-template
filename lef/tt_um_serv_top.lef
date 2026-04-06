@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO serv_top
+MACRO tt_um_serv_top
   CLASS BLOCK ;
-  FOREIGN serv_top ;
+  FOREIGN tt_um_serv_top ;
   ORIGIN 0.000 0.000 ;
   SIZE 140.155 BY 150.875 ;
   PIN VGND
@@ -2971,6 +2971,6 @@ MACRO serv_top
         RECT 3.340 25.130 3.920 33.230 ;
         RECT 3.340 7.700 119.020 25.130 ;
   END
-END serv_top
+END tt_um_serv_top
 END LIBRARY
 

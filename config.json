@@ -1,0 +1,25 @@
+{
+  "DESIGN_NAME": "tt_um_serv_top",
+  "VERILOG_FILES": [
+    "dir::src/serv_top.v",
+    "dir::src/serv_synth_wrapper.v",
+    "dir::src/serv_state.v",
+    "dir::src/serv_rf_top.v",
+    "dir::src/serv_rf_ram.v",
+    "dir::src/serv_rf_ram_if.v",
+    "dir::src/serv_rf_if.v",
+    "dir::src/serv_mem_if.v",
+    "dir::src/serv_immdec.v",
+    "dir::src/serv_decode.v",
+    "dir::src/serv_debug.v",
+    "dir::src/serv_ctrl.v",
+    "dir::src/serv_csr.v",
+    "dir::src/serv_compdec.v",
+    "dir::src/serv_bufreg2.v",
+    "dir::src/serv_bufreg.v",
+    "dir::src/serv_alu.v",
+    "dir::src/serv_aligner.v"
+  ],
+  "CLOCK_PERIOD": 25,
+  "CLOCK_PORT": "clk"
+}
