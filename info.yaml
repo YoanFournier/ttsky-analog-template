@@ -19,24 +19,40 @@ project:
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:
-    - "project.v"
-
+    - "serv_top.v"
+    - "serv_synth_wrapper.v"
+    - "serv_state.v"
+    - "serv_rf_top.v"
+    - "serv_rf_ram.v"
+    - "serv_rf_ram_if.v"
+    - "serv_rf_if.v"
+    - "serv_mem_if.v"
+    - "serv_immdec.v"
+    - "serv_decode.v"
+    - "serv_debug.v"
+    - "serv_ctrl.v"
+    - "serv_csr.v"
+    - "serv_compdec.v"
+    - "serv_bufreg2.v"
+    - "serv_bufreg.v"
+    - "serv_alu.v"
+    - "serv_aligner.v"
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "clk"
+  ui[1]: "i_rst"
+  ui[2]: "i_timer_irq"
+  ui[3]: "i_rf_ready"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "o_rf_rreq"
+  uo[1]: "o_rf_wreq"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
