@@ -6,7 +6,7 @@
  */
 `default_nettype none
 
-module serv_top
+module tt_um_serv_top
   #(parameter	    WITH_CSR = 1,
     parameter	    W = 1,
     parameter	    B = W-1,
